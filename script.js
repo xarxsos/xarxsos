@@ -21,7 +21,7 @@ function onPlayerReady(event) {
 }
 
 function pressPlay() {
-  window.open('https://youtu.be/aLRU9UzvBi4');
+  window.location.href = 'https://youtu.be/aLRU9UzvBi4';
 }
 
 // Inject YouTube API script
