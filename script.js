@@ -1,6 +1,5 @@
 // global variable for the player
 var player;
-var playButton = document.getElementById("btnplay");
 
 // this function gets called when API is ready to use
 function onYouTubePlayerAPIReady() {
@@ -15,6 +14,7 @@ function onYouTubePlayerAPIReady() {
 
 function onPlayerReady(event) {
   // bind events
+  var playButton = document.getElementById("btnplay");
   playButton.addEventListener("click", function () {
     player.playVideo();
   });
