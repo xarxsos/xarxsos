@@ -21,7 +21,7 @@ function onPlayerReady(event) {
 }
 
 function pressPlay() {
-  playButton.click()
+  document.getElementById("btnplay").click()
 }
 
 // Inject YouTube API script
